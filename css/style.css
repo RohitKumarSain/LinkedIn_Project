@@ -770,7 +770,7 @@ li .news-subtext{
 .footer-item {
     position: sticky;
     top: 100px;
-    margin-top: 4vh;
+    margin-top: 6vh;
     list-style-type: none;
     display: flex;
     gap: 5px 0;
