@@ -1,4 +1,4 @@
-:root {
+:root { /* this is root section for styling*/
   --white: #fff;
   --lightgray: #e0dfdc;
   --white_gray: #ebebeb;
@@ -22,7 +22,9 @@
   padding: 0;
 }
 
-body {
+/* body styling here */
+
+body { 
   font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
     Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji,
@@ -33,7 +35,7 @@ body {
   box-sizing: border-box;
 }
 
-/* header begin */
+/* header begins */
 
 .header {
   position: absolute;
@@ -53,6 +55,8 @@ body {
   margin-top: 9px;
   width: 40px;
 }
+
+/* search bar begins */
 
 .search-bar {
   margin: 10px 7px;
@@ -75,6 +79,8 @@ body {
   width:80%;
   transition: 0.3s ease-in-out;
 }
+
+/* navbar begins */
 
 .navbar {
   float: right;
@@ -137,7 +143,6 @@ body {
   height: 58px;
 }
 
-
 .navbar > .active {
   border-bottom: 3px solid var(--black);
   color: var(--black);
@@ -170,6 +175,8 @@ body {
   margin: 0 8%;
 }
 
+/* left aside begins */
+
 .left-aside {
   width: 250px;
   height: 369px;
@@ -178,6 +185,8 @@ body {
   border: 1px solid var(--lightgray);
 }
 
+/* main section begins */
+
 .main-section {
   width: 600px;
   height: 130px;
@@ -185,6 +194,8 @@ body {
   border-radius: 10px;
   border: 1px solid var(--lightgray);
 }
+
+/* right section begins */
 
 .right-aside {
   width: 338px;
@@ -201,6 +212,8 @@ body {
 .profile-section a {
   text-decoration: none;
 }
+
+/* user details section styling */
 
 .user-bg img {
   border-radius: 10px 10px 0 0;
@@ -243,6 +256,8 @@ body {
   border-bottom: 1px solid var(--lightgray);
 }
 
+/* connection container section styling */
+
 .connections-container {
   padding: 14px 0;
   border-bottom: 1px solid var(--lightgray);
@@ -283,6 +298,8 @@ body {
   background-color: var(--lightgray);
 }
 
+/* left premium styling */
+
 .left-premium {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -322,6 +339,8 @@ body {
   color: var(--blue);
 }
 
+/* myitems styling */
+
 .myitems {
   height: auto;
   border-radius: 0 0 10px 10px;
@@ -346,6 +365,8 @@ a {
 .myitems:hover {
   background-color: var(--lightgray);
 }
+
+/* left aside 2 styling begins */
 
 .left-aside-2 {
   display: flex;
@@ -380,10 +401,14 @@ a {
   background-color: var(--lightgray);
 }
 
+/* left aside 2 section ends */
+
 .events_plus {
   display: grid;
   grid-template-columns: auto 30px;
 }
+
+/* discover more section styling */
 
 .discover-more {
   border-top: 1px solid var(--lightgray);
@@ -434,6 +459,8 @@ a {
   border: 1px solid var(--inputborder);
   background-color: #fff;
 }
+
+/* post container styling */
 
 .post-container {
   padding-top: 2px;
@@ -523,6 +550,8 @@ a {
   background-color: var(--white);
 }
 
+/* news heading styling */
+
 .news-heading {
   display: grid;
   grid-template-columns: auto 40px;
@@ -539,6 +568,8 @@ a {
   padding: 15px 10px 0 0;
   color: var(--black);
 }
+
+/* news list styling */
 
 .news-list{
     padding-left: 5%;
@@ -562,6 +593,8 @@ li .news-subtext{
     padding-bottom: 10px;
 }
 
+/* news button styling */
+
 .news-button{
     background-color: transparent;
     border: none;
@@ -574,7 +607,6 @@ li .news-subtext{
     font-size: 1rem;
 }
 
-
 .news-button:hover{
     cursor: pointer;
     background-color: var(--lightgray);
@@ -583,6 +615,8 @@ li .news-subtext{
 .news-list li:hover{
     background-color: var(--lightgray);
 }
+
+/* post section styling here */
 
 .post{
     border: 1px solid var(--lightgray);
@@ -645,6 +679,8 @@ li .news-subtext{
     height: auto;
 }
 
+/* info section begins */
+
 .info{
     background-color: var(--white_blue);
     padding-left: 20px;
@@ -675,6 +711,8 @@ li .news-subtext{
     border: 1.5px solid var(--blue);
     border-radius: 20px;
 }
+
+/* some social sections beigns */
 
 .social-details{
   padding: 10px 0  10px 15px;
@@ -725,6 +763,8 @@ li .news-subtext{
   margin-left: 20px;
 }
 
+/* post social action begins */
+
 .post-social-actions > .like , .comment , .reposts, .send {
   cursor: pointer;
   padding: 5px 10px ;
@@ -766,6 +806,7 @@ li .news-subtext{
   background-color: transparent;
 }
 
+/* footer section begins */
 
 .footer-item {
     position: sticky;
@@ -793,6 +834,8 @@ li .news-subtext{
     color: var(--blue);
 }
 
+/* copyright section here */
+
 .copyright{
     display: flex;
     justify-content: center;
@@ -810,6 +853,8 @@ li .news-subtext{
     font-size: 12px;
 
 }
+
+/* media query here */
 
 @media screen and (max-width:425px) {
 
