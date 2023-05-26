@@ -7,18 +7,19 @@ The LinkedIn Page Clone is a static website that mimics the visual design and la
 # Features
 The LinkedIn Page Clone includes the following features:
 
-## Home Page: 
+Home Page: 
 A landing page that resembles the LinkedIn homepage, showcasing various sections and components.
-## User Profiles: 
+User Profiles: 
 User profiles can be created with personal information, work experience, education, and skills.
-## News Feed: 
+News Feed: 
 A feed displaying posts and updates from connections.
-## Connections: 
+Connections: 
 Users can view their connections and browse through profiles.
-## Job Listings: 
+Job Listings: 
 A section displaying job opportunities for users to explore.
-## Messaging: 
+Messaging: 
 A static representation of LinkedIn's messaging feature, allowing users to send messages.
+
 ## Technologies Used
 The LinkedIn Page Clone has been developed using the following technologies:
 
